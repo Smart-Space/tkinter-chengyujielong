@@ -1,0 +1,24 @@
+<tinui>
+    <line x='512'>
+        <label text='输入一个成语开始游戏：' font='宋体 48' outline='#f0f0f0' anchor='n'>tlabel</label>
+    </line>
+    <line x='10'>
+        <entry width='940' fg='blue' activebg='powderblue' font='微软雅黑 64'>entry</entry>
+    </line>
+    <line x='512'>
+        <button text='确认成语' font='宋体 32' fg='cyan' command='self.funcs["findword"]' anchor='n'></button>
+    </line>
+    <line x='512'>
+        <button text='失败退出' font='宋体 32' fg='red' command='self.funcs["closewindow"]' anchor='n'></button>
+    </line>
+    <line x='70'>
+        <button text='关于编写' font='宋体 18' command='self.funcs["gybx"]'></button>
+        <button text='版本说明' font='宋体 18' command='self.funcs["bbsm"]'></button>
+        <button text='词库信息' font='宋体 18' command='self.funcs["ckxx"]'></button>
+        <button text='词库输入' font='宋体 18' command='self.funcs["cksr"]'>cy-input</button>
+        <button text='成语查询' font='宋体 18' command='self.funcs["check_web"]'>cy-web</button>
+        <button text='检测帮助' font='宋体 18' command='self.funcs["find_chengyu"]'>cy-help</button>
+        <button text='添加词库' font='宋体 18' command='self.funcs["find_newciku"]'></button>
+        <button text='开源项目' font='宋体 18' command='self.funcs["find_kaiyuan"]'></button>
+    </line>
+</tinui>
